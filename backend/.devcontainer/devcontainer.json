@@ -1,0 +1,25 @@
+{
+  "name": "backend-dev",
+  "dockerComposeFile": [
+    "../../docker-compose-dev.yml"
+  ],
+  "service": "backend",
+  "workspaceFolder": "/workspace",
+  "shutdownAction": "none",
+  "runArgs": [
+    "-u",
+    "vscode"
+  ],
+  "extensions": [
+    "vscjava.vscode-java-pack",
+    "redhat.vscode-xml",
+    "vscjava.vscode-spring-initializr",
+    "ecmel.vscode-spring-boot",
+    "Pivotal.vscode-boot-dev-pack",
+    "vscjava.vscode-spring-boot-dashboard",
+    "Pivotal.vscode-spring-boot",
+    "fwcd.kotlin",
+    "mathiasfrohlich.Kotlin",
+    "esafirm.kotlin-formatter"
+  ]
+}
